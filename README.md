@@ -24,7 +24,7 @@ git clone https://github.com/eebor/i3nord
 Install packages(for ubuntu)
 
 ```bash
-sudo apt install feh i3 polybar rofi terminator
+sudo apt install feh i3-wm polybar rofi terminator
 ```
 
 Apply configs
@@ -40,7 +40,7 @@ All configs and resources stored in `i3nord/data` folder
 ## i3lock 
 To use custom i3lock, you need:
 
-- Delete default i3lock
+- Delete default i3lock(if it is installed)
 
 ```bash
 sudo apt remove i3lock
