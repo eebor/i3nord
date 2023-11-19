@@ -29,11 +29,11 @@ cp -r ~/wallpapers "$DATA_SETUP_FOLDER"
 touch $PACKAGE_INSTALLER_FILE
 touch $DATA_SETUP_SCRIPT
 
-echo "#!/bin/bash
-apt install $PACKAGES" > $PACKAGE_INSTALLER_FILE
+# echo "#!/bin/bash
+# apt install $PACKAGES" > $PACKAGE_INSTALLER_FILE
 
 echo "#!/bin/bash 
 cp -r -a ./data/. ~" > $DATA_SETUP_SCRIPT
 
-chmod +x $PACKAGE_INSTALLER_FILE
+# chmod +x $PACKAGE_INSTALLER_FILE
 chmod +x $DATA_SETUP_SCRIPT
