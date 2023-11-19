@@ -5,11 +5,11 @@ Nord preset for i3
 
 ## Screenshots
 
-![screenshot](https://github.com/eebor/i3nord/blob/master/screenshots/screen2.png)
-![screenshot](https://github.com/eebor/i3nord/blob/master/screenshots/screen3.png)
-![screenshot](https://github.com/eebor/i3nord/blob/master/screenshots/screen4.png)
-![screenshot](https://github.com/eebor/i3nord/blob/master/screenshots/screen5.png)
-![screenshot](https://github.com/eebor/i3nord/blob/master/screenshots/screen7.png)
+![screenshot](https://github.com/eebor/i3nord/blob/master/screenhots/screen2.png)
+![screenshot](https://github.com/eebor/i3nord/blob/master/screenhots/screen3.png)
+![screenshot](https://github.com/eebor/i3nord/blob/master/screenhots/screen4.png)
+![screenshot](https://github.com/eebor/i3nord/blob/master/screenhots/screen5.png)
+![screenshot](https://github.com/eebor/i3nord/blob/master/screenhots/screen7.png)
 
 ## Installation
 
