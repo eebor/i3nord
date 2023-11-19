@@ -26,7 +26,7 @@ mkdir -p "$DATA_SETUP_FOLDER/wallpapers"
 cp -r ~/wallpapers "$DATA_SETUP_FOLDER"
 
 # create insatller file 
-touch $PACKAGE_INSTALLER_FILE
+# touch $PACKAGE_INSTALLER_FILE
 touch $DATA_SETUP_SCRIPT
 
 # echo "#!/bin/bash
