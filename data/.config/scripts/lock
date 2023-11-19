@@ -1,0 +1,41 @@
+#!/bin/sh
+
+BLANK='#00000000'
+CLEAR='#ffffff22'
+DEFAULT='#2E3440'
+DEFALUT_APLHA='#2e34407d'
+TEXT='#88C0D0'
+WRONG='#BF616A'
+WRONG_TEXT_COLOR='#BF616A'
+KEY='#88C0D0'
+VERIFYING='#A3BE8C'
+VER_TEXT_COLOR='#A3BE8C'
+KEYBOARD_TEXT_COLOR='#F0C674'
+
+i3lock \
+--insidever-color=$DEFALUT_APLHA     \
+--ringver-color=$VERIFYING   \
+\
+--insidewrong-color=$DEFALUT_APLHA   \
+--ringwrong-color=$WRONG     \
+\
+--inside-color=$DEFALUT_APLHA        \
+--ring-color=$DEFAULT        \
+--line-color=$BLANK          \
+--separator-color=$DEFAULT   \
+\
+--verif-color=$VER_TEXT_COLOR           \
+--wrong-color=$WRONG_TEXT_COLOR          \
+--time-color=$TEXT           \
+--date-color=$TEXT           \
+--layout-color=$KEYBOARD_TEXT_COLOR         \
+--keyhl-color=$KEY         \
+--bshl-color=$WRONG          \
+\
+--screen 1                   \
+--blur 9                     \
+--clock                      \
+--indicator                  \
+--time-str="%H:%M:%S"        \
+--date-str=""       \
+--keylayout 2                \
