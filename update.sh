@@ -13,6 +13,11 @@ cp -r ~/.config/{i3,polybar,rofi,scripts,terminator} "$DATA_SETUP_FOLDER/.config
 
 # copy icons 
 cp -r ~/.icons "$DATA_SETUP_FOLDER"
+rm -r -f "$DATA_SETUP_FOLDER/.icons/default"
+
+# copy themes
+
+cp -r ~/.themes "$DATA_SETUP_FOLDER"
 
 # copy fonts
 cp -r ~/.fonts "$DATA_SETUP_FOLDER"

@@ -24,7 +24,7 @@ git clone https://github.com/eebor/i3nord
 Install packages(for ubuntu)
 
 ```bash
-sudo apt install feh i3-wm polybar rofi terminator
+sudo apt install feh i3-wm polybar rofi terminator lxappearance
 ```
 
 Apply configs
@@ -68,6 +68,7 @@ If this is not the case, then you need to copy the contents of the `i3nord/data/
 | terminator   | terminal             |
 | rofi         | dmenu                |
 | i3lock-color | lock screen          |
+| lxappearance | icons and themes     |
 
 ### Resources
 
@@ -76,6 +77,7 @@ If this is not the case, then you need to copy the contents of the `i3nord/data/
 | squared-nord        | theme for rofi                                                |
 | fontello            | font for polybar from [fontello](https://fontello.com/)       |
 | WindowsClassicBlack | icon pack for cursor(yes, windows)                            |
+| Nordic              | theme                                                         |
 | Wallpapers          | [from here](https://github.com/linuxdotexe/nordic-wallpapers) |
 
 And you can use [nord theme](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code) for vscode
